@@ -60,13 +60,13 @@ The Ballerina CLI tool has enriched with the support of generating boilerplate c
 Server Code Generation:
 
 ```sh
-cd src/server
-ballerina grpc --input health-stub.proto --mode service --output .
+$ cd src/server
+$ ballerina grpc --input health-stub.proto --mode service --output .
 ```
 
 Client Code Generation:
 
 ```sh
-cd src/client
-ballerina grpc --input health-stub.proto --mode client --output .
+$ cd src/client
+$ ballerina grpc --input health-stub.proto --mode client --output .
 ```
