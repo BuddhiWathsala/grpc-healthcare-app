@@ -70,3 +70,7 @@ Client Code Generation:
 $ cd src/client
 $ ballerina grpc --input health-stub.proto --mode client --output .
 ```
+
+## References
+
+1. https://ballerina.io/v1-1/learn/by-example/
