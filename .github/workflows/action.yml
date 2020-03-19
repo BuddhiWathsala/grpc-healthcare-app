@@ -30,4 +30,4 @@ jobs:
       uses: ballerina-platform/ballerina-action@master
       with:
         args: 
-          build
+          build -a
